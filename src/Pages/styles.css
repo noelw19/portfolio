@@ -1,3 +1,51 @@
+/* global page styling */
+
 .contentCenter {
     text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+/* styling for portfolio */
+
+/* portfolio grids */
+
+.portfolioContainer {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolioLeft {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(4, 77, 4, 0.624);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioRight {
+    Width: 40%;
+    height: 100%;
+    background-color: rosybrown;
+    border-radius: 15%;
+}
+
+
+/* CV page styling */
+
+.CV_container {
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CV_content {
+    margin: 2rem;
 }

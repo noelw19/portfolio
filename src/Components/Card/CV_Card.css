@@ -1,0 +1,22 @@
+/* styling for the card within cv page*/
+
+.cardContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.imgContainer {
+    width:100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
