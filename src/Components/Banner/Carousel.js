@@ -21,6 +21,7 @@ const Carousel = () => {
         <div className='imgContainer'><img src={ img } alt='webiste1'/></div>
         <div className='imgContainer'><img src={ img1 } alt='webiste1'/></div>
         <div className='imgContainer'><img src={ img2 } alt='webiste1'/></div>
+
       </ReactSwipe>
       <button onClick={() => reactSwipeEl.next()}>Next</button>
       <button onClick={() => reactSwipeEl.prev()}>Previous</button>

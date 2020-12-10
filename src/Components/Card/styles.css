@@ -1,0 +1,29 @@
+/* styling for cards within the portfolio page */
+
+.cardContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.cardContainer h2 {
+    margin: 0;
+}
+
+.imgContainer {
+    width:100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+/* img container on portfolio that has border radius */
+.border {
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+}
+
