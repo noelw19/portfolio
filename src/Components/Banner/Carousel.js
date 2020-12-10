@@ -18,9 +18,9 @@ const Carousel = () => {
       >
          {/* need to sort img sizing as the carousel gets too large when 
          diff size images are used. */}
-        <div className='imgContainer'>1</div>
         <div className='imgContainer'><img src={ img }/></div>
-        <div className='imgContainer'>3</div>
+        <div className='imgContainer'><img src={ img1 }/></div>
+        <div className='imgContainer'><img src={ img2 }/></div>
       </ReactSwipe>
       <button onClick={() => reactSwipeEl.next()}>Next</button>
       <button onClick={() => reactSwipeEl.prev()}>Previous</button>
