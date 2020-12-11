@@ -13,7 +13,7 @@ const Carousel = () => {
     <div className='swipeContainer'>
       <ReactSwipe
         className="carousel"
-        swipeOptions={{ continuous: true, widthOfSiblingSlidePreview: 10 }}
+        swipeOptions={{ continuous: true, widthOfSiblingSlidePreview: 220 }}
         ref={el => (reactSwipeEl = el)}
       >
          {/* need to sort img sizing as the carousel gets too large when 
@@ -23,8 +23,8 @@ const Carousel = () => {
         <div className='imgContainer'><img src={ img2 } alt='webiste1'/></div>
 
       </ReactSwipe>
-      <button onClick={() => reactSwipeEl.next()}>Next</button>
-      <button onClick={() => reactSwipeEl.prev()}>Previous</button>
+      <button id='btn' onClick={() => reactSwipeEl.next()}>Next</button>
+      <button id='btn' onClick={() => reactSwipeEl.prev()}>Previous</button>
     </div>
   );
 };

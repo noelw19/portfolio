@@ -5,7 +5,7 @@ const CvCard = (props) => {
         <div className='cardContainer'>
             <div className='imgContainer'>
                 <a href={props.link}>
-                    <img src={props.img} alt=''/>
+                    <img className='img' src={props.img} alt=''/>
                 </a>
             </div>
         </div>

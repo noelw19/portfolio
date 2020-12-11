@@ -6,6 +6,7 @@ function Home() {
       <div className='contentCenter'>
         <h2>- Home -</h2>
         <hr />
+        <h4>MOST RECENT PROJECTS</h4>
         <div className='swipeContainer'>
         <Swipe />
         </div>

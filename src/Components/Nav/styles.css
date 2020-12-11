@@ -3,7 +3,7 @@
 }
 
 nav {
-    height: auto;
+    height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -21,6 +21,7 @@ ul {
 ul li {
     list-style: none;
     font-size: large;
+    align-items: left;
 }
 
 /* link converts to anchor tag  */
@@ -28,4 +29,47 @@ a {
     color: orange;
     text-decoration: none;
     
+}
+
+/* breakpoint for 600px and larger*/
+@media only screen and (min-width: 650px) {
+
+    /* nav element - width set to auto otherwise it covers the other elements
+    and doesnt allow scrolling */
+    nav {
+        height: 100%;
+        width: 25%;
+        display:flex;
+        border-top: 0;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    li {
+        margin-top: 3rem;
+    }
+
+    ul li {
+        font-size: large;
+        padding: 1rem;
+    }
+} 
+
+
+@media only screen and (min-width: 1000px) {
+
+    ul li {
+        font-size: xx-large;
+    }
+
+    nav {
+        height: 100%;
+        width: 15%;
+        display:flex;
+        border-top: 0;
+    }
+
 }

@@ -7,6 +7,7 @@
 
 /* holds both elements content and nav */
 .appContainer {
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -14,13 +15,55 @@
 /* hold the content area */
 .content {
   width: 100%;
-  height: 90vh;
+  height: 90%;
 }
 
 /* holds nav area */
 .navContainer {
-  width: 100%;
+  height:10%;
   left: 0;
   bottom: 0;
-  z-index: 1000;
 }
+
+/* breakpoint for screens 600px and larger */
+@media only screen and (min-width: 650px) {
+
+  /* container that is the nav section */
+  .navContainer {
+    width:25%;
+    height: auto;
+    border-right:1px solid orange;
+  }
+
+
+  .appContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 75%;
+    height: 100vh;
+  }
+} 
+
+/* breakpoint for largest screens */
+@media only screen and (min-width: 1000px) {
+
+  /* container that is the nav section */
+  .navContainer {
+    width:15%;
+    height: auto;
+    border-right:1px solid orange;
+  }
+
+
+  .appContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 85%;
+  }
+} 

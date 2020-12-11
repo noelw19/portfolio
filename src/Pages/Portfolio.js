@@ -18,12 +18,14 @@ function Portfolio() {
        
         <div className='portfolioLeft'>
         <Card 
-            title='hello'
+            title='Website 1'
             img={img}/>
         </div>
 
         <div className='portfolioRight'>
-          <h2>working</h2>
+        <Card 
+            title='Website 2'
+            img={img}/>
         </div>
 
         </div>
@@ -33,11 +35,15 @@ function Portfolio() {
         <div className='portfolioContainer'>
        
         <div className='portfolioLeft'>
-          <h2>working</h2>
+        <Card 
+            title='Website 3'
+            img={img}/>
         </div>
 
         <div className='portfolioRight'>
-          <h2>working</h2>
+        <Card 
+            title='Website 4'
+            img={img}/>
         </div>
 
         </div>

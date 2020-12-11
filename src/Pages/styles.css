@@ -13,7 +13,7 @@ h2 {
 /* portfolio grids */
 
 .portfolioContainer {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -22,17 +22,19 @@ h2 {
 .portfolioLeft {
     width: 40%;
     height: 100%;
-    background-color: rgba(4, 77, 4, 0.624);
-    border-radius: 15%;
+    border-radius: 10%;
     display: flex;
     justify-content: center;
+    border: 2px solid orange;
 }
 
 .portfolioRight {
     Width: 40%;
     height: 100%;
-    background-color: rosybrown;
-    border-radius: 15%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid orange;
 }
 
 
@@ -48,4 +50,14 @@ h2 {
 
 .CV_content {
     margin: 2rem;
+}
+
+/* Carousel component button styling  */
+
+.swipeContainer button{
+    color: orange;
+    background-color: black;
+    border: 1px solid orange;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
