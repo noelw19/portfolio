@@ -11,14 +11,16 @@ nav {
     
 }
 
-ul {
+ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    padding-right: 1.5rem;
     
 }
 
-ul li {
+nav ul li {
     list-style: none;
     font-size: large;
     align-items: left;
@@ -59,15 +61,22 @@ a {
 } 
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 754px) {
 
     ul li {
-        font-size: xx-large;
+        font-size: large;
+        display: flex;
+        align-items: left;
     }
+
+    ul {
+        width:100%;
+    }
+    
 
     nav {
         height: 100%;
-        width: 15%;
+        width: 17%;
         display:flex;
         border-top: 0;
     }

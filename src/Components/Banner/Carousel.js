@@ -13,7 +13,7 @@ const Carousel = () => {
     <div className='swipeContainer'>
       <ReactSwipe
         className="carousel"
-        swipeOptions={{ continuous: true, widthOfSiblingSlidePreview: 220 }}
+        swipeOptions={{ continuous: true, widthOfSiblingSlidePreview: 100 }}
         ref={el => (reactSwipeEl = el)}
       >
          {/* need to sort img sizing as the carousel gets too large when 

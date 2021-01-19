@@ -15,6 +15,9 @@ function Nav () {
             <li>
               <Link to="/cv">CV</Link>
             </li>
+            <li>
+              <Link to="/test">Test</Link>
+            </li>
           </ul>
     </nav>
     )

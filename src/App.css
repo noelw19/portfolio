@@ -48,11 +48,11 @@
 } 
 
 /* breakpoint for largest screens */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 754px) {
 
   /* container that is the nav section */
   .navContainer {
-    width:15%;
+    width:17%;
     height: auto;
     border-right:1px solid orange;
   }
@@ -64,6 +64,6 @@
   }
 
   .content {
-    width: 85%;
+    width: 83%;
   }
 } 

@@ -8,35 +8,65 @@ h2 {
     margin-top: 2rem;
 }
 
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+
 /* styling for portfolio */
 
 /* portfolio grids */
 
 .portfolioContainer {
-    margin-top: 4rem;
     width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolioLeft {
-    width: 40%;
-    height: 100%;
+    width: 60%;
+    height: fit-content;
     border-radius: 10%;
     display: flex;
     justify-content: center;
     border: 2px solid orange;
+    overflow: hidden;
+    
 }
 
 .portfolioRight {
-    Width: 40%;
-    height: 100%;
+    width: 60%;
+    height: fit-content;
     border-radius: 10%;
     display: flex;
     justify-content: center;
     border: 2px solid orange;
+    overflow: hidden;
 }
 
+@media only screen and (min-width: 650px) {
+    .portfolioLeft {
+        width: 30%;
+        height: fit-content;
+    }
+
+    .portfolioRight {
+        width: 30%;
+        height: fit-content;
+    }
+
+    .portfolioContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 
 /* CV page styling */
 
@@ -55,9 +85,18 @@ h2 {
 /* Carousel component button styling  */
 
 .swipeContainer button{
-    color: orange;
-    background-color: black;
+    color: black;
+    background-color: orange;
     border: 1px solid orange;
     margin-right: 1rem;
     margin-bottom: 2rem;
+    width: 6rem;
+    height:3rem;
+    font-size: large;
+
+}
+
+.swipeContainer {
+    width: 100%;
+    height: 100%;
 }

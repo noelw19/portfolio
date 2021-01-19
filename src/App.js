@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import CV from './Pages/CV';
+import Test from './Pages/testPage';
 
 import Nav from './Components/Nav/Nav'
 
@@ -45,6 +46,9 @@ export default function App() {
             </Route>
             <Route path="/cv">
               <CV />
+            </Route>
+            <Route path="/test">
+              <Test />
             </Route>
           </Switch>
         </div>
